@@ -1,4 +1,4 @@
-import Counter from '../components/timer/counter';
+import Counter from '../components/counter/counter';
 
 const Index = () => {
   return (
