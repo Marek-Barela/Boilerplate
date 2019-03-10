@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import { getCounter } from '../features/timer/selectors'
-import { connect } from 'react-redux'
+import React, { Component } from 'react';
+import { getCounter } from '../../features/timer/selectors';
+import { connect } from 'react-redux';
 
-import { increment, decrement, reset } from '../features/timer/actions';
+import { increment, decrement, reset } from '../../features/timer/actions';
 
 class Counter extends Component {
   increment = () => {
