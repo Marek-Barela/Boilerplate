@@ -1,3 +1,4 @@
 export default function getStore(store: any) {
-  return store.ctx.store
+  console.log(store.store)
+  return store.store
 }

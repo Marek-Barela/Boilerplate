@@ -1,5 +1,5 @@
 import * as api from './api';
-import { fetchCounter, fetchCounterRequest } from "./actions";
+import { fetchCounter, fetchCounterRequest } from './actions';
 import { all, call, put, takeEvery } from 'redux-saga/effects';
 import { getType } from 'typesafe-actions';
 import { SwapiPeopleResponse } from './model';

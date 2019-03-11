@@ -38,8 +38,8 @@ const mapStateToProps = (state: RootState) => {
 };
 
 const mapDispatchToProps = {
-  onDecrement: incrementCounter,
-  onIncrement: decrementCounter
+  onIncrement: incrementCounter,
+  onDecrement: decrementCounter
 }
 
 
