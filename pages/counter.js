@@ -1,6 +1,6 @@
 import Counter from '../components/counter/counter';
 
-const counter = () => {
+const PageCounter = () => {
   return (
     <div>
       <Counter />
@@ -8,4 +8,4 @@ const counter = () => {
   )
 }
 
-export default counter
+export default PageCounter
