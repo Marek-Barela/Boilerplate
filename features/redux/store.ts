@@ -20,9 +20,7 @@ function configureStore(initialState?: RootState) {
     bindMiddleware([sagaMiddleware])
   );
 
-  (store as any).runSagaTask = () => {
-    (store as any).sagaTask = sagaMiddleware.run(rootSaga);
-  };
+  (store as any).sagaTask = sagaMiddleware.run(rootSaga);
 
   return store
 }
