@@ -8,7 +8,7 @@ export const fetchCounterRequest = createAsyncAction(
   'counter/FETCH_COUNTER_REQUESTED',
   'counter/FETCH_COUNTER_SUCCEEDED',
   'counter/FETCH_COUNTER_FAILED',
-)();
+)<void, number, Error>();
 
 export const incrementCounter = createAction(
   "counter/INCREMENT"

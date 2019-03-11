@@ -1,12 +1,18 @@
+import { RootAction } from '../redux/root-actions';
 import { incrementCounter, decrementCounter, fetchCounterRequest } from './actions';
 import { getType } from 'typesafe-actions';
 
-export const initialState = {
+export type CounterState = {
+  count: number;
+  isFetching: boolean;
+};
+
+export const initialState: CounterState = {
   count: 0,
   isFetching: false
 }
 
-export default function (state = initialState, action) {
+export default function (state: CounterState = initialState, action: RootAction): CounterState {
   switch (action.type) {
     case (getType(fetchCounterRequest.request)):
       return {
@@ -29,7 +35,6 @@ export default function (state = initialState, action) {
         ...state,
         count: state.count + 1
       }
-
     case (getType(decrementCounter)):
       return {
         ...state,

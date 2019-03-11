@@ -23,6 +23,7 @@ class MyApp extends App {
       <Container>
         <Head>
           <title>Boilerplate</title>
+          <link rel="icon" type="image/x-icon" href="https://reactnativeexample.com/favicon.png" />
         </Head>
         <Provider store={store}>
           <Component {...pageProps} />
