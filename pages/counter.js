@@ -1,5 +1,6 @@
 import Counter from '../components/counter/counter';
 import { fetchCounter } from '../features/counter/actions';
+import getStore from '../features/redux/selectors';
 
 const CounterPage = () => {
   return (
@@ -10,8 +11,7 @@ const CounterPage = () => {
 }
 
 CounterPage.getInitialProps = async (store) => {
-  const action = store.ctx.store
-  console.log(action)
+  const action = getStore(store)
   action.dispatch(fetchCounter());
   return {};
 };
