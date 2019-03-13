@@ -5,7 +5,7 @@ import { RootState } from '../features/redux/root-reducer';
 import { NextFunctionComponent } from 'next';
 import { Store } from 'redux';
 
-const Index: NextFunctionComponent<{}, Store<RootState, RootAction>> = () => {
+const Index: NextFunctionComponent<{}, {}, Store<RootState, RootAction>> = () => {
   return (
     <div>
       <Counter />
