@@ -9,18 +9,24 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "@types/styled-jsx": "^2.2.8",
     "@zeit/next-typescript": "^1.1.1",
     "es6-promise": "4.1.1",
     "fork-ts-checker-webpack-plugin": "^1.0.0",
     "isomorphic-unfetch": "2.0.0",
+    "jss": "^9.8.7",
     "next": "^8.0.3",
     "next-redux-saga": "4.0.0",
     "next-redux-wrapper": "2.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-jss": "^8.6.1",
     "react-redux": "5.0.7",
     "redux": "4.0.1",
     "redux-saga": "1.0.1",
+    "save-dev": "^2.0.0",
     "typesafe-actions": "^3.2.1",
     "typescript": "^3.3.3333"
   },
@@ -33,6 +39,7 @@
     "@types/react": "^16.8.1",
     "@types/react-dom": "^16.0.11",
     "@types/react-redux": "^7.0.3",
+    "@types/react-jss": "^8.6.3",
     "redux-devtools-extension": "2.13.2"
   }
 }
