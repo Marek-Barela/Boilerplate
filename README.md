@@ -21,8 +21,11 @@ git checkout MaterialUI
 ## Sources
 
 https://github.com/bmealhouse/next-redux-saga
+
 https://github.com/zeit/next-plugins/tree/master/packages/next-typescript
+
 https://github.com/piotrwitek/typesafe-actions
+
 https://github.com/mui-org/material-ui/tree/master/examples/nextjs
 
 ## License
