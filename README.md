@@ -20,6 +20,8 @@ git checkout MaterialUI
 
 ## Sources
 
+https://github.com/zeit/next.js/tree/canary/examples/with-redux-saga
+
 https://github.com/bmealhouse/next-redux-saga
 
 https://github.com/zeit/next-plugins/tree/master/packages/next-typescript
